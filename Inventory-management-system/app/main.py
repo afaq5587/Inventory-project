@@ -11,9 +11,11 @@ def login():
         if user == "admin":
             user_name = input("Enter your user name: ")
             user_password = input("Enter your password: ")
-            if user_name == "admin" and user_password == "admin":
+            if user_password == "admin":
+                print("Login successful!")
+
                 while True:
-                    print("Login successful!")
+                    print(f"HI {user_name}, What do you want to perform?")
                     print("1. Add product")
                     print("2. Update product")
                     print("3. Delete product")
@@ -125,7 +127,7 @@ Product.add_product(1, "Phones", "accessories", 300 , 20)
 Product.add_product(2, "headphones", "accessories", 300 , 20)
 Product.add_product(3, "tablets", "accessories", 300 , 20)
 Product.add_product(4, "laptop", "accessories", 300 , 20)
-Product.add_product(4, "covers", "accessories", 300 , 20)
+Product.add_product(5, "covers", "accessories", 300 , 20)
 
 
 

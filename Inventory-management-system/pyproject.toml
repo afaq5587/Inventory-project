@@ -2,7 +2,7 @@
 name = "inventory-management-system"
 version = "0.1.0"
 description = ""
-authors = ["usmanashrf <usmanashraf1510@gmail.com>"]
+authors = ["afaqlatif <afaqlatif082@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
